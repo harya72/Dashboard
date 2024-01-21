@@ -1,5 +1,10 @@
 # Dashboard
 
+### Go to the client and server directory and run command "npm install" for both client and server to install the dependencies of the project
+
+### Go to the .env file inside the server directory and enter your mongoDb url for connecting to the database.
+
+# Screenshots below:
 ## Dashboard Loading Screen
 ![Dashboard-Loading](https://github.com/harya72/Dashboard/assets/45589134/0815643f-710e-43b1-8a5d-58e2aecc863a)
 

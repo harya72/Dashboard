@@ -1,0 +1,112 @@
+.custom-date-picker input::placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+@media only screen and (min-width: 485px) and (max-width: 900px) {
+  .himanshu {
+    display: none;
+  }
+
+  .chart-container {
+    position: relative;
+    height: 90vh;
+  }
+
+  .time-bar {
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .lineChart {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 50px;
+  }
+}
+
+.myButton {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+@media only screen and (min-width: 901px) {
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    /* background-color: red; */
+
+    padding: 10px;
+  }
+
+  .timeline {
+    display: flex;
+    flex: 1;
+    /* justify-content: center; */
+    
+  }
+
+  .lineChart {
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    margin-top: 50px;
+  }
+
+  .chart-container {
+    position: relative;
+    height: 70vh;
+    width: 60vw;
+  }
+  .chart-container1 {
+    position: relative;
+    height: 70vh;
+    width: 30vw;
+  }
+
+  .time-bar {
+    position: relative;
+    height: 50vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .time-bar {
+    display: flex;
+  }
+}
+
+.timeline {
+  margin: 10px;
+}
+
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Use 100% viewport height or adjust as needed */
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
